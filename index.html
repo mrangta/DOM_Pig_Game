@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <button class="btn-settings"><i class="ion-ios-settings"></i>Settings</button>
+            
+            <img src="resources/dice-5.png" alt="Dice" id="dice1" class="dice">
+            <img src="resources/dice-5.png" alt="Dice" id="dice2" class="dice">
+        </div>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <a class="close" href="#">×</a>
+                 <div class="modal-label" >Settings</div>
+                 <form class="form">
+                    <div class="form-group">
+                        <label class="form-label">Set Winning Score :</label>
+                        <input type="number" name="win-score" id="winning_score" class="form-input" value=100>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Enter Player-1 Name :</label>
+                        <input type="text" name="player-1-name" id="player-0-name" class="form-input player-input" value='Player 1'>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Enter Player-2 Name :</label>
+                        <input type="text" name="player-2-name" id="player-1-name" class="form-input player-input" value='Player 2'>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"></label>
+                        <input type="button" name="set" id="play-btn" class="modal-button" value="PLAY">
+                    </div>
+                </form>
+                
+            </div>
+          
+          </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
