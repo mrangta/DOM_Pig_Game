@@ -11,6 +11,6 @@ Check the game here: http://piggame.monikarangta.com/
 - AND, if the player rolls a 6, all his ROUND and TOTAL score gets lost :thumbsdown: . Now is the next player's turn.
 - The player can choose to 'Hold' by clicking on Hold button, which means that his ROUND score gets added to his GLOBAL score :thumbsup:. Then, it is the next player's turn.
 - The first player to reach 100 :dart: (by default) points on GLOBAL score wins the game. :trophy:
-- You can also set winning score before game start, in "Set winning score" field, on a left top corner of a game. Enjoy!!
+- You can also set winning score before game start, in "Set winning score" field, by clicking on "Settings" button. Enjoy!!
 
 ![DOM PIG GAME](https://github.com/mrangta/DOM_Pig_Game/blob/master/pig_game.png?raw=true)
